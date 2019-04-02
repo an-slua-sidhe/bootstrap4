@@ -9,11 +9,23 @@
 </head>
 
 <body>
-    <article class="container">
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="/" class="navbar-brand">Whiskey Drop</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"><a href="/" class="nav-link">Home</a></li>
+            <li class="nav-item mr-2"><a href="/about" class="nav-link">About</a></li>
+            <li class="nav-item mr-2 d-block d-sm-none"><a href="/login" class="nav-link">Sign in / Sign up</a></li>
+        </ul>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
+            <a href="/login">Sign in / Sign up</a>
+        </div>
+    </nav>
+    <article class="container mt-3">
         <!-- Callout -->
         <div class="row">
             <div class="col-12">
-                <section class="callout">
+                <section class="callout jumbotron">
                     <h1>The finest whiskeys delivered to your doorstep.</h1>
                     <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
                         <s>$19.99</s> <strong><mark>First one is free!</mark></strong></p>
