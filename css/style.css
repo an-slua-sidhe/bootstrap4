@@ -2,6 +2,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container-wrapper {
+    
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    font-color: white;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -46,7 +55,7 @@ body {
 /* Page Headers */
 
 .page-header {
-    margin-bottom: 0;
+    margin-bottom: 25px;
     border-bottom: 0;
     text-align: center;
 }
@@ -54,6 +63,10 @@ body {
 .page-header h2 {
     margin-top: 0;
 }
+
+/*.quotes .page-header {*/
+/*    margin-bottom: 25px;*/
+/*}*/
 
 /* Block Dividers */
 
@@ -66,6 +79,10 @@ body {
  
  .block-divider--orange {
     background-color: #c14b12;
+}
+
+.block-divider--white {
+    background-color: white;
 }
 
 .block-divider--short {
@@ -152,4 +169,24 @@ body {
 .btn--red:active:focus {
     background-color: #a52509;
     border-color: #a52509;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    color: #f05f40;
 }
